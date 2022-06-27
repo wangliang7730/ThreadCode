@@ -1561,7 +1561,7 @@ public class Test10 {
            System.out.println(Thread.currentThread().getName() + "存储了一个数据");
                 list.notifyAll();
             }}}}
-//4)定义线程类调用 add()取数据的方法
+//4)定义线程类调用 add()的方法
 class ThreadAdd extends Thread {
     @Override
     public void run() {
